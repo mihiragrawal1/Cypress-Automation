@@ -9,6 +9,6 @@ How to start :
 4. npx cypress run - To run the test scripts in terminal(headless)
 
 To run the file upload script : 
-Install package --  npm install --save-dev cypress-file-upload
-Add  to command.js in supports :  import 'cypress-file-upload';
-Run test -- npx cypress run/npx cypress open
+1. Install package --  npm install --save-dev cypress-file-upload
+2. Add  to command.js in supports :  import 'cypress-file-upload';
+3. Run test -- npx cypress run/npx cypress open.
