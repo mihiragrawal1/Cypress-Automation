@@ -5,3 +5,5 @@
 How to start :
 1. Clone the project
 2. npm i - Install all the dependencies
+3. npx cypress open - To run the test scripts in ui mode(headed)
+4. npx cypress run - To run the test scripts in terminal(headless)
