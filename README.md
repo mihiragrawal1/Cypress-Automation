@@ -7,3 +7,8 @@ How to start :
 2. npm i - Install all the dependencies
 3. npx cypress open - To run the test scripts in ui mode(headed)
 4. npx cypress run - To run the test scripts in terminal(headless)
+
+To run the file upload script : 
+Install package --  npm install --save-dev cypress-file-upload
+Add  to command.js in supports :  import 'cypress-file-upload';
+Run test -- npx cypress run/npx cypress open
