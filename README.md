@@ -12,3 +12,6 @@ To run the file upload script :
 1. Install package --  npm install --save-dev cypress-file-upload
 2. Add  to command.js in supports :  import 'cypress-file-upload';
 3. Run test -- npx cypress run/npx cypress open.
+
+To generate html report(mocha-awesome) : 
+1.npx cypress run(report folder will be created after execution under project just open the index.html file in report folder on browser)
