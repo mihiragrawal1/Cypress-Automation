@@ -15,3 +15,6 @@ To run the file upload script :
 
 To generate html report(mocha-awesome) : 
 1.npx cypress run(report folder will be created after execution under project just open the index.html file in report folder on browser)
+
+To run api test script just install api package-
+npm i cypress-plugin-api  or else can use cy.request in place of cy.api in test script.
